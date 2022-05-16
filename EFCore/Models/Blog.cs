@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EFCore
+namespace EFCore.Models
 {
-    public class Employee
+    public class Blog
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-
+        public string Url { get; set; }
     }
 }
